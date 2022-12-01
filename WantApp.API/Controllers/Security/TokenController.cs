@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -8,6 +9,7 @@ using WantApp.Domain.DTOs.Token;
 
 namespace WantApp.API.Controllers.Security;
 
+[AllowAnonymous]
 [Route("api/[controller]")]
 public class TokenController : ControllerBase
 {
@@ -36,14 +38,20 @@ public class TokenController : ControllerBase
             return BadRequest();
         }
 
-        var tokenDescriptor = new SecurityTokenDescriptor()
-        {
-            Subject = new ClaimsIdentity
+        var claims = await _userManager.GetClaimsAsync(user);
+
+        var subject = new ClaimsIdentity
             (
                 new Claim[]
                 {
                     new Claim(ClaimTypes.Email, request.Email)
-                }),
+                });
+
+        subject.AddClaims(claims);
+
+        var tokenDescriptor = new SecurityTokenDescriptor()
+        {
+            Subject = subject,
             SigningCredentials = 
                     new SigningCredentials(
                         new SymmetricSecurityKey(

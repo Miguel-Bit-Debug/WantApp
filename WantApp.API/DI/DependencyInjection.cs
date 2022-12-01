@@ -38,6 +38,10 @@ public static class DependencyInjection
             .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
             .RequireAuthenticatedUser()
             .Build();
+
+            opt.AddPolicy("EmployeePolicy", p => p
+            .RequireAuthenticatedUser()
+            .RequireClaim("EmployeeCode"));
         });
         builder.Services.AddAuthentication(x =>
         {

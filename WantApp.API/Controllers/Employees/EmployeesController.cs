@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using WantApp.Domain.DTOs.Employee;
@@ -6,15 +7,18 @@ using WantApp.InfraData.Dapper.Employees;
 
 namespace WantApp.API.Controllers.Employees;
 
+[Authorize(Policy = "EmployeePolicy")]
 [Route("v1/[controller]")]
 public class EmployeesController : ControllerBase
 {
     private readonly UserManager<IdentityUser> _userManager;
     private readonly QueryEmployees _queryEmployees;
 
-    public EmployeesController(UserManager<IdentityUser> userManager)
+    public EmployeesController(UserManager<IdentityUser> userManager,
+                               QueryEmployees queryEmployees)
     {
         _userManager = userManager;
+        _queryEmployees = queryEmployees;
     }
 
     [HttpPost]
