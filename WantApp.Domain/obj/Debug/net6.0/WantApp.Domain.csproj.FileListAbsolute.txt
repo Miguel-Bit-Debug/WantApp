@@ -1,0 +1,12 @@
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\bin\Debug\net6.0\WantApp.Domain.deps.json
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\bin\Debug\net6.0\WantApp.Domain.dll
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\bin\Debug\net6.0\WantApp.Domain.pdb
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\WantApp.Domain.csproj.AssemblyReference.cache
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\WantApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\WantApp.Domain.AssemblyInfoInputs.cache
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\WantApp.Domain.AssemblyInfo.cs
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\WantApp.Domain.csproj.CoreCompileInputs.cache
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\WantApp.Domain.dll
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\refint\WantApp.Domain.dll
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\WantApp.Domain.pdb
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.Domain\obj\Debug\net6.0\ref\WantApp.Domain.dll

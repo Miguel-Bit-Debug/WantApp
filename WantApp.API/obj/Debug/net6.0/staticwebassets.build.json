@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MFS6cLblNSUyjTBudOoWmbzyzSijYE3sh/g3zHMGraE=",
+  "Source": "WantApp.API",
+  "BasePath": "_content/WantApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Grg3zraxrqcIQC77AkcBBhlvk7QZh1Ri8RvQAMdVIL7uW9iPQuwgEmGt2qJtHHngRpHgmkmBbkfsmpFYyPoIJg==",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\CSharp\\Demos\\WantApp\\WantApp\\WantApp.Domain\\WantApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MDMago\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

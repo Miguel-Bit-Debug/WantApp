@@ -1,0 +1,15 @@
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\bin\Debug\net6.0\WantApp.InfraData.deps.json
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\bin\Debug\net6.0\WantApp.InfraData.dll
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\bin\Debug\net6.0\WantApp.InfraData.pdb
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\bin\Debug\net6.0\WantApp.Domain.dll
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\bin\Debug\net6.0\WantApp.Domain.pdb
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.csproj.AssemblyReference.cache
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.AssemblyInfoInputs.cache
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.AssemblyInfo.cs
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.csproj.CoreCompileInputs.cache
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.csproj.CopyComplete
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.dll
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\refint\WantApp.InfraData.dll
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\WantApp.InfraData.pdb
+D:\Dev\CSharp\Demos\WantApp\WantApp\WantApp.InfraData\obj\Debug\net6.0\ref\WantApp.InfraData.dll
