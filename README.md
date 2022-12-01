@@ -5,4 +5,4 @@ Tecnologias usadas:
   - Microsoft Identity
   - EntityFramework
   - JWT (Authentication/Authorization)
-  
+  - Docker
