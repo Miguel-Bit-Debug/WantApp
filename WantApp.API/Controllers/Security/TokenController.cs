@@ -52,13 +52,14 @@ public class TokenController : ControllerBase
         var tokenDescriptor = new SecurityTokenDescriptor()
         {
             Subject = subject,
-            SigningCredentials = 
+            SigningCredentials =
                     new SigningCredentials(
                         new SymmetricSecurityKey(
-                            Encoding.ASCII.GetBytes(_configuration["SecretKey"])), 
+                            Encoding.ASCII.GetBytes(_configuration["SecretKey"])),
                             SecurityAlgorithms.HmacSha256Signature),
             Audience = _configuration["Audience"],
-            Issuer = _configuration["Issuer"]
+            Issuer = _configuration["Issuer"],
+            Expires = DateTime.UtcNow.AddHours(1)
         };
 
         var tokenHandler = new JwtSecurityTokenHandler();

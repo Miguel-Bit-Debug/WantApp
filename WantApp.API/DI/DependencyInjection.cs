@@ -58,6 +58,7 @@ public static class DependencyInjection
                 ValidateIssuerSigningKey = true,
                 ValidIssuer = builder.Configuration["Issuer"],
                 ValidAudience = builder.Configuration["Audience"],
+                ClockSkew = TimeSpan.Zero,
                 IssuerSigningKey = new SymmetricSecurityKey(
                             Encoding.UTF8.GetBytes(
                                 builder.Configuration["SecretKey"]))
