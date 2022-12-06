@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using WantApp.Domain.Repositories;
 
 namespace WantApp.API.Controllers.Category;
@@ -18,6 +19,10 @@ public class CategoryController : ControllerBase
     [HttpPost("add-category")]
     public IActionResult AddCategory([FromBody] Domain.Models.Product.Category category)
     {
+
+        var userId = HttpContext.User.Claims.First(c => c.Type == ClaimTypes.NameIdentifier).Value;
+
+        category.CreatedBy = userId;
         if(!category.IsValid)
         {
             return BadRequest(category.Notifications);
